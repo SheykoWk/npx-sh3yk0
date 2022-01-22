@@ -1,0 +1,39 @@
+{
+  "name": "sh3yk0",
+  "version": "1.0.0",
+  "description": "A personal card for Sahid Kick aka sh3yk0",
+  "main": "app.js",
+  "type": "module",
+  "bin": {
+    "anmol": "./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheykoWk/npx_card.git"
+  },
+  "scripts": {
+    "test": "node app.js",
+    "pub": "npm --experimental-modules version major & npm publish"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm",
+    "card",
+    "npx",
+    "npx",
+    "card"
+  ],
+  "author": "Sheyk0",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.6.1",
+    "inquirer": "^8.2.0",
+    "open": "^8.4.0",
+    "ora": "^6.0.1",
+    "request": "^2.88.2"
+  }
+}
